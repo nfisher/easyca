@@ -38,7 +38,7 @@ test:
 	go test
 
 .PHONY: run
-run: all
+run: $(EXE)
 	./$(EXE)
 
 .PHONY: vet
